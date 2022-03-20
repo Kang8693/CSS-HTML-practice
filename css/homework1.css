@@ -1,20 +1,40 @@
+.container {
+  width: 800px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
 .left {
-  border: 2px solid black;
-  display: inline-block;
-  vertical-align: top;
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+
+.left .blog-profile {
+  width: 50px;
+  float: left;
+  margin: 6px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.left .blog-name {
+  float: left;
+}
+
+.left .blog-content {
   padding-left: 10px;
 }
 
 .right {
-  display: inline-block;
-  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+  float: left;
 }
 
 .right img {
-  width: 146px;
-}
-
-.bottom p {
-  font-family: "nanumsquare";
-  color: gray;
+  width: 100%;
+  height: 100%;
 }

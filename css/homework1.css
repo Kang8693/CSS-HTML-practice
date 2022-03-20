@@ -1,0 +1,20 @@
+.left {
+  border: 2px solid black;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.right {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.right img {
+  width: 146px;
+}
+
+.bottom p {
+  font-family: "nanumsquare";
+  color: gray;
+}

@@ -28,7 +28,24 @@
   color: black;
   background-color: white;
   font-size: 30px;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 10px;
   margin-bottom: 20px;
+}
+
+.sub-box {
+  position: fixed;
+  width: 40%;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 15px;
+  font-family: nanumsquare;
+}
+
+.sub-title {
+  font-size: 24px;
 }

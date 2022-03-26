@@ -1,6 +1,6 @@
 .main-background {
   width: 100%;
-  height: 945px;
+  height: 500px;
   background-image: url(../shoes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,6 @@
   color: white;
   font-size: 60px;
   font-family: nanumsquare;
-  margin-top: 300px;
   text-align: center;
 }
 
@@ -21,11 +20,7 @@
   font-size: 30px;
   font-family: nanumsquare;
   text-align: center;
-  margin: 0 150px 0 150px;
-  border: 1px solid gba(112, 109, 109);
-  border-radius: 7px;
-  padding: 20px 0 20px 0;
-  background-color: rgba(112, 109, 109, 0.7);
+  padding: 0 0 20px 0;
 }
 
 .main-text button {

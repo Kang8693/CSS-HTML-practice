@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+.main-box {
+    position: absolute;
+    padding: 30px;
+    width: 30%;
+    height: 550px;
+    background-color: whitesmoke;
+    left: 50%;
+    top: 50%;
+    margin-left: -15%;
+    margin-top: -275px;
+}
+
+.main-content h3 {
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.main-content p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-email {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-top: -12px;
+}
+
+.w-50 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.yellow-button {
+    padding: 5px 35px 5px 35px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}

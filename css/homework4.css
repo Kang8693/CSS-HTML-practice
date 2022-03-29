@@ -7,9 +7,9 @@ div, input, textarea {
 }
 
 thead, td {
-    padding: 5px 20px 5px 5px;
-    border-bottom: 1px solid gray;
+    padding: 5px;
     text-align: right;
+    border-bottom: 1px solid #c2d3de;
 }
 
 table {
@@ -40,13 +40,18 @@ table {
     color: gray;
 }
 
+.main-table thead {
+    font-size: 13px;
+    font-weight: 800;
+}
+
 .item-img img {
     float: left;
-    width: 18%;
+    width: 25%;
 }
 
 .item-content {
-    width: 82%;
+    width: 75%;
     float: left;
     line-height: 5px;
     text-align: left;
@@ -60,6 +65,7 @@ table {
 
 .AMOUNT {
     text-align: right;
+    padding-right: 30px;
 }
 
 .cart-link {

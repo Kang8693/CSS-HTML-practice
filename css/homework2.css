@@ -1,3 +1,12 @@
+body {
+  margin: 0px;
+  transform: rotate(0.04deg);
+}
+
+div, textarea {
+  box-sizing: border-box;
+}
+
 .main-background {
   width: 100%;
   height: 500px;
@@ -30,6 +39,13 @@
   font-size: 30px;
   padding: 10px;
   margin-bottom: 20px;
+  border: none;
+}
+
+.main-text button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 .sub-box {
@@ -48,4 +64,25 @@
 
 .sub-title {
   font-size: 24px;
+}
+
+.nav-box {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  background-color: teal;
+  padding: 15px 0 15px 15px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+
+.nav-item span {
+  font-weight: 600;
+  font-size: 35px;
+  margin-left: 20px;
 }

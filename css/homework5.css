@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+}

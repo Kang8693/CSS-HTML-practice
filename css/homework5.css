@@ -12,8 +12,7 @@ textarea {
   width: 80%;
   max-width: 1200px;
   margin: auto;
-  padding: 100px;
-  background-color: skyblue;
+  padding-top: 300px;
 }
 
 .main-container div {
@@ -30,5 +29,12 @@ textarea {
 
   .main-container div {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container div {
+    float: none;
+    width: 100%;
   }
 }

@@ -8,5 +8,23 @@ textarea {
   box-sizing: border-box;
 }
 
+.main-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 100px;
+  background-color: gray;
+}
+
+.main-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: aliceblue;
+}
+
 @media screen and (max-width: 1200px) {
+  .main-container div {
+    width: 50%;
+  }
 }

@@ -89,7 +89,7 @@ div, textarea {
 
 .product-container {
   width: 80%;
-  height: 700px;
+  height: 400px;
   max-width: 1200px;
   margin: auto;
   padding-top: 200px;
@@ -116,6 +116,7 @@ div, textarea {
 @media screen and (max-width: 1200px) {
   .product-container {
     max-width: 600px;
+    height: 100%;
   }
 
   .product-container div {
@@ -128,4 +129,52 @@ div, textarea {
     float: none;
     width: 100%;
   }
+}
+
+.shop-content {
+  width: 100%;
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 35%;
+  padding: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  margin-top: 100%;
+  background-color: rgba(0,0,0,0.3);
+  transition: all 1s;
+}
+
+.overlay span {
+  font-size: 60px;
+  color: white;
+}
+
+.overlay-wrap:hover .overlay {
+  opacity: 1;
+  margin-top: 50%;
 }

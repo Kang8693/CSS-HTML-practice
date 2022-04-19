@@ -24,12 +24,13 @@ span {
 }
 
 .first-container {
+    max-width: 1600px;
     width: 100%;
     height: 500px;
     background: linear-gradient(to top, #4e64c2,#4b88d4);
 }
 
-.first-container img {
+.first-img {
     width: 340px;
     height: 380px;
     float: right;
@@ -98,4 +99,22 @@ span {
     padding-top: 20px;
     box-sizing: border-box;
     color: #4b88d4;
+}
+
+@media screen and (max-width: 992px){
+    .first-img {
+        display: block;
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        float: none;
+    }
+
+    .first-explain {
+        width: 420px;
+        text-align: center;
+        margin: auto;
+        float: none;
+    }
+    
 }

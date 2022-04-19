@@ -6,6 +6,23 @@ textarea, div {
     box-sizing: border-box;
 }
 
+button {
+    background-color: #444445;
+    color: white;
+    font-size: 16px;
+    padding: 14px 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
+span {
+    font-weight: 400;
+}
+
 .first-container {
     width: 100%;
     height: 500px;
@@ -30,19 +47,55 @@ textarea, div {
     color: white;
 }
 
-.first-explain button {
-    background-color: #444445;
-    color: white;
+.second-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.second-explain {
+    width: 440px;
     font-size: 16px;
-    padding: 14px 18px;
-    border-radius: 5px;
-    border: none;
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
 }
 
-.first-explain button:hover {
-    background-color: black;
+.third-container {
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    background-color: #4b88d4;
 }
 
-.first-explain span {
-    font-weight: 400;
+.third-explain{
+    margin: auto;
+    width: 10%;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.third-icon {
+    width: 850px;
+    height: 200px;
+    margin: auto;
+}
+
+.third-icon div {
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.third-icon i{
+    background-color: white;
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #4b88d4;
 }

@@ -1,0 +1,29 @@
+body {
+    font-family: nanumsquare;
+    transform: skew(-0.1deg);
+}
+
+h3 {
+    font-weight: 800;
+}
+
+span {
+    font-weight: normal;
+}
+
+.mr {
+    margin-right: -2rem;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px #eee;
+}
+
+.btn-style {
+    padding: 6px 24px;
+    background-color: #6fbaf8;
+    color: white;
+}

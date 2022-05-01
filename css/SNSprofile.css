@@ -11,6 +11,22 @@ span {
     font-weight: normal;
 }
 
+.fire {
+    font-size: 80px;
+    margin: 20px;
+    color: #6fbaf8;
+}
+
+.pill {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 100px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+}
+
 .mr {
     margin-right: -2rem;
 }

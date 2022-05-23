@@ -9,6 +9,13 @@
     color: $폰트색상;
 }
 
+@mixin col($넓이) {
+    background-color: #e6e2eb;
+    border: 1px solid #c9c1d4;
+    padding: 20px;
+    width: $넓이;
+}
+
 
 
 .main_1 {
@@ -34,9 +41,21 @@
     }
     .alert_three {
         @include box(#fcf7e2, #b38e67)
-    }
-
+    } 
     span {
         font-weight: bold;
+    }
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    .col-6 {
+        margin-bottom: 20px;
+        @include col(50%)
+    }
+
+    .col-4 {
+        @include col(33.33%)
     }
 }

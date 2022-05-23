@@ -1,0 +1,10 @@
+.main_1 li {
+  list-style: none;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+}
+.main_1 .active {
+  background-color: blue;
+  color: white;
+}/*# sourceMappingURL=homework6.css.map */

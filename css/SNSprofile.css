@@ -11,6 +11,14 @@ span {
     font-weight: normal;
 }
 
+a {
+    font-weight: bold;
+}
+
+b {
+    font-size: 0.8rem;
+}
+
 .fire {
     font-size: 80px;
     margin: 20px;
@@ -42,4 +50,13 @@ span {
     padding: 6px 24px;
     background-color: #6fbaf8;
     color: white;
+}
+
+.Profile {
+    width: 11.5rem;
+    margin-bottom: -2rem;
+    text-align: center;
+    font-size: 24px;
+    color: #6fbaf8;
+    font-weight: bold;
 }

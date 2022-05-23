@@ -7,4 +7,38 @@
 .main_1 .active {
   background-color: blue;
   color: white;
+}
+
+.alert_box .alert_one {
+  background-color: #def0d8;
+  width: 1000px;
+  font-size: 24px;
+  border-radius: 7px;
+  margin: 40px;
+  padding: 4px;
+  padding-left: 40px;
+  color: #82a990;
+}
+.alert_box .alert_two {
+  background-color: #d9ecf7;
+  width: 1000px;
+  font-size: 24px;
+  border-radius: 7px;
+  margin: 40px;
+  padding: 4px;
+  padding-left: 40px;
+  color: #65a2c7;
+}
+.alert_box .alert_three {
+  background-color: #fcf7e2;
+  width: 1000px;
+  font-size: 24px;
+  border-radius: 7px;
+  margin: 40px;
+  padding: 4px;
+  padding-left: 40px;
+  color: #b38e67;
+}
+.alert_box span {
+  font-weight: bold;
 }/*# sourceMappingURL=homework6.css.map */

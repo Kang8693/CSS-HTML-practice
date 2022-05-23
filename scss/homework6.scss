@@ -1,3 +1,16 @@
+@mixin box($배경색상, $폰트색상) {
+    background-color: $배경색상;
+    width: 1000px;
+    font-size: 24px;
+    border-radius: 7px;
+    margin: 40px;
+    padding: 4px;
+    padding-left: 40px;
+    color: $폰트색상;
+}
+
+
+
 .main_1 {
     li {
         list-style: none;
@@ -9,5 +22,21 @@
     .active {
         background-color: blue;
         color: white;        
+    }
+}
+
+.alert_box {
+    .alert_one {
+        @include box(#def0d8, #82a990)
+    }
+    .alert_two {
+        @include box(#d9ecf7, #65a2c7)
+    }
+    .alert_three {
+        @include box(#fcf7e2, #b38e67)
+    }
+
+    span {
+        font-weight: bold;
     }
 }
